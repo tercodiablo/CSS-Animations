@@ -1,6 +1,7 @@
 :root {
-  --dark-color: #575756;
-  --yellow-color: #e7e73e;
+  --dark-color: rgb(55, 53, 54);
+  --yellow-color: rgb(226, 226, 60);
+  --pink-color: rgb(246, 144, 214);
 }
 
 * {
@@ -13,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: var(--pink-color);
 }
 
 .main {
@@ -24,7 +25,8 @@ body {
   width: 50%;
   min-height: 100vh;
   /*border: blue 2px solid;*/
-  background-image: url(https://i.imgur.com/SKTJPNR.jpg);
+  background-image: url(heart11.jpg);
+  box-shadow: 0 0 15px rgb(200, 94, 133);
   background-size: 100%; /* Tamaño imagen de fondo */
   background-repeat: no-repeat;
 }
@@ -71,5 +73,20 @@ body {
   }
   50% {
     border-color: var(--yellow-color);
+  }
+}
+
+/*MEDIA-QUERIES*/
+@media screen and (max-width: 660px) {
+  .main {
+    width: 100%;
+    box-shadow:none;
+  }
+  .container {
+    width: 76%;
+    margin-top: 10rem;
+  }
+  .text {
+    font-size: 0.8rem;
   }
 }
