@@ -25,7 +25,8 @@ body {
   width: 50%;
   min-height: 100vh;
   /*border: blue 2px solid;*/
-  background-image: url(heart11.jpg);
+  /*background-image: url(heart11.jpg);*/
+  background-image: url(https://i.imgur.com/SKTJPNR.jpg);
   box-shadow: 0 0 15px rgb(200, 94, 133);
   background-size: 100%; /* Tamaño imagen de fondo */
   background-repeat: no-repeat;
